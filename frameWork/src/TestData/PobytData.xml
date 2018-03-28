@@ -1,0 +1,30 @@
+<Pobyt>
+
+<Data>
+<EmptyData>name="empty"</EmptyData>
+<UserName></UserName>
+<Password></Password>
+<result> UserName/Password Missing</result>
+
+<InvaliData>name="Emptypwd"</InvaliData>
+<UserName>test</UserName>
+<Password></Password>
+<result> UserName/Password Missing</result>
+
+<InvaliData>name="EmptyUserName"</InvaliData>
+<UserName></UserName>
+<Password>test</Password>
+<result> UserName/Password Missing</result>
+
+<InvaliData>name="Invalid"</InvaliData>
+<UserName>test</UserName>
+<Password>test1234</Password>
+<result> Invalid username/Password</result>
+
+<InvaliData>name="Valid"</InvaliData>
+<UserName>testmanager@gmail.com</UserName>
+<Password>testmanager</Password>
+<result>Valid credentials:User loggedin Successfully</result>
+</Data>
+
+</Pobyt>
