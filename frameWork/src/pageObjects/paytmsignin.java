@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.openqa.selenium.By;
@@ -15,7 +16,7 @@ public class paytmsignin {
 	String filename;
 	String sheetname;
 	
-	public paytmsignin(String filename,String sheetname) throws FileNotFoundException {
+	public paytmsignin(String filename,String sheetname) throws IOException {
 		excel = new excelInput(filename, sheetname);
 		this.filename=filename;
 		this.sheetname = sheetname;

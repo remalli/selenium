@@ -1,0 +1,30 @@
+<Streams>
+
+<Data>
+<EmptyData>name="empty"</EmptyData>
+<UserName></UserName>
+<Password></Password>
+<result>Please enter User Name.</result>
+
+<InvaliData>name="Emptypwd"</InvaliData>
+<UserName>mookambika@security</UserName>
+<Password></Password>
+<result>Please enter Password.</result>
+
+<InvaliData>name="EmptyUserName"</InvaliData>
+<UserName></UserName>
+<Password>test</Password>
+<result>Please enter User Name.</result>
+
+<InvaliData>name="Invalid"</InvaliData>
+<UserName>mookambika@security</UserName>
+<Password>test1234</Password>
+<result>Invalid Username or Password</result>
+
+<InvaliData>name="Valid"</InvaliData>
+<UserName>security</UserName>
+<Password>abc@12345</Password>
+<result>Valid credentials:Admin loggedin Successfully</result>
+</Data>
+
+</Streams>

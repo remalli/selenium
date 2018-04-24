@@ -14,8 +14,8 @@ public class AllLoginsData {
 	@Test
 	public void AllLoginMethod() {
 		try {
-			AllLogins excel = new AllLogins("E:\\Sudheer\\frameWork\\src\\TestData\\StramsTestData.xlsx", "Sheet1");
-			String admin5 = excel.urlMethod(1);
+			AllLogins excel = new AllLogins("E:\\Sudheer\\frameWork\\src\\TestData\\Streams.xlsx", "Sheet1");
+			/*String admin5 = excel.urlMethod(1);
 			log4j.infologs(admin5+" is triggered");
 			browserPrac.startBrowser("chrome", admin5);
 			excel.loginMethod(1, "admin5");
@@ -28,14 +28,14 @@ public class AllLoginsData {
 			browserPrac.startBrowser("chrome", SB);
 			excel.loginMethod(2, "smartbox");
 			log4j.infologs("Smartbox is logged-in");
-			
-			/*String streams = excel.urlMethod(3);
+			*/
+			String streams = excel.urlMethod(3);
 			log4j.infologs(streams+" is triggered");
 			browserPrac.startBrowser("chrome", streams);
 			excel.loginMethod(3, "streams");
 			log4j.infologs("streams is logged-in");
 			
-			String web40 = excel.urlMethod(4);
+			/*String web40 = excel.urlMethod(4);
 			log4j.infologs(web40+" is triggered");
 			browserPrac.startBrowser("chrome", web40);
 			excel.loginMethod(4, "web40");

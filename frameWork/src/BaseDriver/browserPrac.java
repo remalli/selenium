@@ -11,20 +11,16 @@ public class browserPrac {
 	public static  WebDriver startBrowser(String browser, String url)
 	{
 		if (browser.equalsIgnoreCase("chrome")) {
-		//System.setProperty("webdriver.chrome.driver", "E:\\Sudheer\\frameWork\\lib\\chromedriver.exe");
-		
-		System.setProperty("webdriver.chrome.driver","E:\\Sudheer\\frameWork\\lib\\Browsers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\framework\\frameWork\\lib\\Browsers\\chromedriver.exe");
 		driver =new ChromeDriver();	
 		}
 		else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "E:\\Sudheer\\frameWork\\lib\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\framework\\frameWork\\lib\\Browsers\\geckodriver.exe");
 			driver =new FirefoxDriver();
 		}
 		else {
-			//System.setProperty("webdriver.chrome.driver", "E:\\Sudheer\\frameWork\\lib\\chromedriver.exe");
-			
 			System.setProperty("webdriver.chrome.driver",
-					  "E:\\Sudheer\\frameWork\\lib\\Browsers\\chromedriver.exe");
+					  "D:\\framework\\frameWork\\lib\\Browsers\\chromedriver.exe");
 			driver =new ChromeDriver();		
 		}
 		driver.manage().window().maximize();

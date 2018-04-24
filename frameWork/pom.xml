@@ -33,7 +33,7 @@
 				</goals>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>E:\Sudheer\frameWork\src\TestNGFiles\PobytTestng.xml</suiteXmlFile>
+						<suiteXmlFile>D:\framework\frameWork\src\TestNGFiles\streamsTestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-api</artifactId>
-			<version>3.9.1</version>
+			<version>3.11.0</version>
 		</dependency>
 		
 		
@@ -72,7 +72,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
-			<version>3.9.1</version>
+			<version>3.11.0</version>
 		</dependency>
 		
 		<dependency>
@@ -110,12 +110,12 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml-schemas</artifactId>
-			<version>3.16</version>
+			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-scratchpad</artifactId>
-			<version>3.16</version>
+			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
@@ -171,13 +171,13 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.9.1</version>
+			<version>3.11.0</version>
 		</dependency>
 	
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>3.16</version>
+			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
@@ -193,7 +193,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-support</artifactId>
-			<version>3.9.1</version>
+			<version>3.11.0</version>
 		</dependency>
 
 		<dependency>
