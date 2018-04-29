@@ -95,7 +95,7 @@ public class LoginStreams {
 		else 
 			System.out.println("No operation performed");
 			System.out.println("Git testing going on....");
-			System.out.println("Git testing going on....");
+			
 }
 	
 	public void NewUser() {
